@@ -36,24 +36,39 @@ public class GreenNote extends AppCompatActivity {
 
         //creating an array list of bullshit wisdoms to be shown to user
         final ArrayList<String> engArray = new ArrayList<>();
-        engArray.add("Customer first!");
-        engArray.add("Dream big!");
-        engArray.add("test!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
-//        engArray.add("!");
+        engArray.add("It's Friday");
+        engArray.add("It's raining");
+        engArray.add("My pillow hit me and I lost consciousness");
+        engArray.add("my dog ate my work schedule");
+        engArray.add("my bus run away");
+        engArray.add("my car broke down");
+        engArray.add("am I late? Oh no, my watch must have stood");
+        engArray.add("The dog buried my car in the backyard");
+        engArray.add("Got betrayed by the new alarm app");
+        engArray.add("My car was attacked by a bear");
+        engArray.add("i was kidnapped this morning by some activists for 2 hours");
+        engArray.add("I was chasing a burglar who broke into the house");
+        engArray.add("A zebra was running on highway making a traffic jam");
+        engArray.add("I was at the parking lot trying to park my car");
+        engArray.add("I was warned by my fairy not to leave early");
+        engArray.add("The makeup went really wrong");
+        engArray.add("My coffee was too hot");
+        engArray.add("I was here, but I fell asleep in the parking lot");
+        engArray.add("My fake eyelashes were stuck together");
+        engArray.add("cat got stuck in the toilet");
+        engArray.add("I was watching something on TV and really wanted to finish");
+        engArray.add("I got a hairbrush stuck in her hair");
+        engArray.add("I was scared by a nightmare");
+        engArray.add("I had a Hangover");
+        engArray.add("I was helping elderly person cross the street");
+        engArray.add("I had a severe allergic reaction to 8:00am");
+        engArray.add("I stopped to rescue a duck that had been hit by a car");
+        engArray.add("I had to get a squirrel out of my bedroom");
+        engArray.add("There was a cow blocking the road");
+        engArray.add("I locked myself and my dog out of my apartment building");
+        engArray.add("A drone crashed for your tram");
+        engArray.add("My pet turtle needed to visit the exotic animal clinic");
+        engArray.add("I thought my commute time counts toward my work hours");
 
 
         //random generator chooses randomly the index number of the arraylist

@@ -81,7 +81,7 @@ public class YellowNote extends AppCompatActivity {
         engArray.add("customer will praise you");
         engArray.add("manager will praise you");
         engArray.add("you'll miss the deadline");
-        //        engArray.add("a");
+        engArray.add("your boss will arrive even later than you");
         //        engArray.add("a");
         //        engArray.add("a");
         //        engArray.add("a");
