@@ -26,9 +26,9 @@
     <style name="note_back">
         <item name="android:layout_width">140dp</item>
         <item name="android:layout_height">140dp</item>
-        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginStart">12dp</item>
         <item name="android:layout_marginTop">28dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginEnd">48dp</item>
         <item name="android:layout_marginBottom">8dp</item>
         <item name="android:visibility">invisible</item>
     </style>

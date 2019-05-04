@@ -59,6 +59,7 @@
         android:id="@+id/back_green"
         style="@style/note_back"
         android:layout_marginStart="48dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/back_blue"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,21 +69,19 @@
     <ImageView
         android:id="@+id/back_blue"
         style="@style/note_back"
-        android:layout_marginEnd="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/back_green"
         app:layout_constraintTop_toBottomOf="@+id/note_yellow"
         app:srcCompat="@drawable/sticky_blue" />
 
     <ImageView
         android:id="@+id/back_pink"
         style="@style/note_back"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/back_green"
         app:layout_constraintTop_toBottomOf="@+id/note_yellow"
-        app:layout_constraintVertical_bias="0.552"
         app:srcCompat="@drawable/sticky_pink" />
 
     <TextView
@@ -103,11 +102,12 @@
         app:layout_constraintTop_toTopOf="@+id/back_yellow"  />
 
     <TextView
+        android:id="@+id/textView"
         style="@style/text_navigate"
         android:text="go back"
         app:layout_constraintBottom_toBottomOf="@+id/back_blue"
         app:layout_constraintEnd_toEndOf="@+id/back_blue"
         app:layout_constraintStart_toStartOf="@+id/back_blue"
-        app:layout_constraintTop_toTopOf="@+id/back_blue"  />
+        app:layout_constraintTop_toTopOf="@+id/back_blue" />
 
 </android.support.constraint.ConstraintLayout>

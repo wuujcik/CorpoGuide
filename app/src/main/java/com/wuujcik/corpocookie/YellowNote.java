@@ -31,49 +31,49 @@ public class YellowNote extends AppCompatActivity {
         nextNote.setVisibility(View.VISIBLE);
 
         //backNote is a small sticky note on the bottom right side
-        //setting it visible with blue color
-        View backNote = findViewById(R.id.back_blue);
+        //setting it visible with pink color
+        View backNote = findViewById(R.id.back_pink);
         backNote.setVisibility(View.VISIBLE);
 
         //creating an array list of bullshit wisdoms to be shown to user
         final ArrayList<String> engArray = new ArrayList<>();
-        engArray.add("You will be sent for a business trip");
+        engArray.add("You'll be sent for a business trip");
         engArray.add("Your computer will crash");
-        engArray.add("Nothing will happen today");
-        engArray.add("You will be escalated");
+        engArray.add("Nothing interesting will happen today");
+        engArray.add("You'll be escalated");
         engArray.add("Your vacation will be approved");
         engArray.add("your vacation will be rejected");
         engArray.add("toilet paper will finish");
         engArray.add("coffee machine will break");
         engArray.add("your boss will pat your shoulder");
-        engArray.add("you will win an argument");
+        engArray.add("you'll win an argument");
         engArray.add("your crash will smile to you");
         engArray.add("it will start raining at 5pm");
         engArray.add("it will stop raining at 5pm");
-        engArray.add("you will stay overtime");
-        engArray.add("you will tell on your friend");
-        engArray.add("you will such up to your boss");
+        engArray.add("you'll stay overtime");
+        engArray.add("you'll tell on your friend");
+        engArray.add("you will suck up to your boss");
         engArray.add("colleague will help you");
-        engArray.add("you will go for a beer after work");
+        engArray.add("you'll go for a beer after work");
         engArray.add("Meetings all day long");
         engArray.add("meeting will be useful");
-        engArray.add("you will meet all the KPI's");
-        engArray.add("you will find a new meme");
-        engArray.add("somebody will else will do your job");
-        engArray.add("you will be promoted");
-        engArray.add("you will get a bonus");
-        engArray.add("you will get a salary raise");
-        engArray.add("you will be fired");
-        engArray.add("you will get a warning");
-        engArray.add("you will have a meeting to plan another meeting");
+        engArray.add("you'll meet all the KPI's");
+        engArray.add("you'll find a new meme");
+        engArray.add("somebody else will do your job");
+        engArray.add("you'll be promoted");
+        engArray.add("you'll get a bonus");
+        engArray.add("you'll get a salary raise");
+        engArray.add("you'll be fired");
+        engArray.add("you'll get a warning");
+        engArray.add("you'll have a meeting to plan another meeting");
         engArray.add("printer will break down");
         engArray.add("snacks in the office");
         engArray.add("fruits in the office");
         engArray.add("somebody will steal your lunch");
         engArray.add("your boss will get sick");
         engArray.add("your enemy will be promoted");
-        engArray.add("you will cry in a toilet");
-        engArray.add("you will overcome a challenging task");
+        engArray.add("you'll cry in a toilet");
+        engArray.add("you'll overcome a challenging task");
         engArray.add("pizza day!");
         engArray.add("team building will be cancelled");
         engArray.add("team building will be set up");
@@ -82,9 +82,13 @@ public class YellowNote extends AppCompatActivity {
         engArray.add("manager will praise you");
         engArray.add("you'll miss the deadline");
         engArray.add("your boss will arrive even later than you");
-        //        engArray.add("a");
-        //        engArray.add("a");
-        //        engArray.add("a");
+        engArray.add("somebody will bring a cake");
+        engArray.add("it will be too cold in the office");
+        engArray.add("it will be too hot in the office");
+        engArray.add("AC will break down");
+        //        engArray.add("");
+        //        engArray.add("");
+        //        engArray.add("");
 
 
         //random generator chooses randomly the index number of the arraylist
