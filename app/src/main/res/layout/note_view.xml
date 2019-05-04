@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pin_board"
+    tools:context=".YellowNote">
+
+    <ImageView
+        android:id="@+id/note_yellow"
+        style="@style/big_note"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sticky_yellow"
+       />
+
+    <ImageView
+        android:id="@+id/note_blue"
+        style="@style/big_note"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sticky_blue" />
+
+    <ImageView
+        android:id="@+id/note_green"
+        style="@style/big_note"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sticky_green" />
+
+    <ImageView
+        android:id="@+id/note_pink"
+        style="@style/big_note"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sticky_pink" />
+
+    <ImageView
+        android:id="@+id/back_yellow"
+        style="@style/note_back"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/back_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_yellow"
+        app:srcCompat="@drawable/sticky_yellow" />
+
+    <ImageView
+        android:id="@+id/back_green"
+        style="@style/note_back"
+        android:layout_marginStart="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/back_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_yellow"
+        app:srcCompat="@drawable/sticky_green" />
+
+    <ImageView
+        android:id="@+id/back_blue"
+        style="@style/note_back"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_yellow"
+        app:srcCompat="@drawable/sticky_blue" />
+
+    <ImageView
+        android:id="@+id/back_pink"
+        style="@style/note_back"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_yellow"
+        app:layout_constraintVertical_bias="0.552"
+        app:srcCompat="@drawable/sticky_pink" />
+
+    <TextView
+        android:id="@+id/text_advise"
+        style="@style/text_advise"
+        app:layout_constraintBottom_toBottomOf="@+id/note_yellow"
+        app:layout_constraintEnd_toEndOf="@+id/note_yellow"
+        app:layout_constraintStart_toStartOf="@+id/note_yellow"
+        app:layout_constraintTop_toTopOf="@+id/note_yellow"
+        tools:text="touch base with a win-win philosophy" />
+
+    <TextView
+        style="@style/text_navigate"
+        android:text="next note"
+        app:layout_constraintBottom_toBottomOf="@+id/back_yellow"
+        app:layout_constraintEnd_toEndOf="@+id/back_yellow"
+        app:layout_constraintStart_toStartOf="@+id/back_yellow"
+        app:layout_constraintTop_toTopOf="@+id/back_yellow"  />
+
+    <TextView
+        style="@style/text_navigate"
+        android:text="go back"
+        app:layout_constraintBottom_toBottomOf="@+id/back_blue"
+        app:layout_constraintEnd_toEndOf="@+id/back_blue"
+        app:layout_constraintStart_toStartOf="@+id/back_blue"
+        app:layout_constraintTop_toTopOf="@+id/back_blue"  />
+
+</android.support.constraint.ConstraintLayout>
